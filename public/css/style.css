@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sun {
+  position: relative;
+  width: 50%;
+  top: -10vh;
+  left: 70vw;
+}
+.cloud-1 {
+  position: absolute;
+  width: 35%;
+  top: -10vh;
+  left: 55vw;
+}
+.cloud-2 {
+  position: absolute;
+  width: 35%;
+  top: 30vh;
+  left: 75vw;
+}
+
+.holder {
+  position: absolute;
+  top: 20vh;
+  width: 45%;
+  margin: 10px 30px;
+}
+.highlight {
+  position: absolute;
+  top: 5vh;
+  left: 21vw;
+  width: 11rem;
+  height: 2rem;
+  background-color: #f5eec2;
+  z-index: -1;
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 25px;
+  text-align: center;
+}
+
+form {
+  position: absolute;
+  top: 65vh;
+  margin-left: 7vw;
+}
+
+input {
+  width: 25vw;
+  height: 7vh;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+button {
+  width: 13vw;
+  height: 7vh;
+  border-radius: 5px;
+  border: 1px solid #f4b383;
+  background-color: #f4b383;
+}
+button:hover {
+  border: 1px solid #d66d22;
+  background-color: #d66d22;
+}

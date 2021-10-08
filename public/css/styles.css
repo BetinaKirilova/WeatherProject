@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.pic {
+  position: relative;
+  width: 110%;
+  top: -25vh;
+  left: -30px;
+}
+
+h1 {
+  position: absolute;
+  margin-left: 30px;
+  top: 20vh;
+  font-size: 40px;
+}
+p {
+  position: absolute;
+  margin-left: 15vw;
+  top: 75vh;
+  font-size: 20px;
+}
+
+.icon {
+  position: absolute;
+  margin-left: 55vw;
+  top: 37vh;
+  width: 30%;
+}
